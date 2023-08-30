@@ -1,4 +1,3 @@
-
 import os
 import sys
 def get_asset_path():

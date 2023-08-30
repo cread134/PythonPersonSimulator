@@ -25,6 +25,6 @@ availableCommands = {
 
 def run_cmd(cmd):
     if cmd not in availableCommands:
-        return "msg: => " + cmd + " is not a valid command"
+        return "msg: => " + cmd + " is not a valid command \n type 'show' to see available commands"
     return availableCommands.get(cmd).cmd();
 

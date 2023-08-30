@@ -12,6 +12,5 @@ def input_loop():
         if command == False:
             break
         if isinstance(command, str):
-            print (command)
             if command[0:4] == "msg:":
                 print(command)

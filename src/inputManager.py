@@ -5,7 +5,6 @@ def get_input():
     result = input("Enter command: ")
     return result
 
-
 def input_loop():
     while True:
         inputResult = get_input()

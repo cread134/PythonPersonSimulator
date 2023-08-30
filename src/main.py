@@ -15,7 +15,10 @@ def input_loop():
         command = commandManager.run_cmd(inputResult);
         if command == False:
             break
-
+        if isinstance(command, str):
+            print (command)
+            if command[0:4] == "msg:":
+                print(command)
 
 if __name__ == "__main__":
     input_loop()
